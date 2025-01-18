@@ -22,7 +22,7 @@
     "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": true,
-      "value": "*No Doubt Mercedes is Always Active*"
+      "value": "> *No Doubt Mercedes is Always Active*"
     },
     
     "PREFIX": {
@@ -52,7 +52,7 @@
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
 
     "AUTO_STICKER": {
@@ -113,7 +113,7 @@
   "AUTO_STATUS_REPLY": {
       "description": "Make it true if want automatic status reply .",
       "required": false,
-      "value": "false"
+      "value": "true"
     },    
 
     "BOT_NAME": {
@@ -141,7 +141,7 @@
     "AUTO_STATUS__MSG": {
       "description": "enter your caption if you want to show on status reply.",
       "required": true,
-      "value": "Mercedes Just Saw Your Status"
+      "value": "> *Mercedes Just Saw Your Status*"
     }
 
 
