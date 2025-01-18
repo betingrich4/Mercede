@@ -246,9 +246,9 @@ cmd({
       'minute': "2-digit",
       'second': '2-digit',
       'hour12': true,
-      'timeZone': "Africa/Harare"
+      'timeZone': "Africa/Nairobi"
     });
-    _0x2cf87c("🕒 Current Local Time in Kenya: " + _0x624003);
+    _0x2cf87c("> *Current Local Time in Kenya:* " + _0x624003);
   } catch (_0x39a156) {
     console.error("Error in .timenow command:", _0x39a156);
     _0x2cf87c("❌ An error occurred. Please try again later.");
@@ -270,7 +270,7 @@ cmd({
       'month': 'long',
       'day': "numeric"
     });
-    _0x2f4fd4("📅 Current Date: " + _0x5987f3);
+    _0x2f4fd4("> *Current Date:* " + _0x5987f3);
   } catch (_0x2ed4a8) {
     console.error("Error in .date command:", _0x2ed4a8);
     _0x2f4fd4("❌ An error occurred. Please try again later.");
