@@ -30,7 +30,7 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*Hello There  ${pushname}*
+        const formattedInfo = `*Hello There*
 > *This is Mercedes The Forgotten Project by Marisel*
 *Thanks For Choosing Mercedes*
 > *Get session below* 
