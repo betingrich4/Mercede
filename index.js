@@ -110,7 +110,7 @@ const {
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*╭──────────────►*\n> *Mercedes Connected successfully*\n> *Join Us For Updates*\n\n*https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x*\n\n> *Subscribe On YouTube*\n\n*https://youtube.com/@wemacomic*\n\n*──────────────►*\n*│✫- Bot Name:* *Mercedes*\n*│✫- Desc:* *Forgotten Project*\n*│✫ - Creator* *Marisel*\n*│✫- Repo:* *https://github.com/betingrich3/Mercedes*\n*Enjoy*\n*PREFIX: ${prefix}*\n*╰──────────────●●►*`;
+  let up = `*╭──────────────►*\n> *Mercedes Connected successfully*\n> *Join Us For Updates*\n*https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x*\n> *Subscribe On YouTube*\n\n*https://youtube.com/@wemacomic*\n*──────────────►*\n*│✫- Bot Name:* *Mercedes*\n*│✫- Desc:* *Forgotten Project*\n*│✫ - Creator* *Marisel*\n*│✫- Repo:* *https://github.com/betingrich3/Mercedes*\n*Enjoy*\n*PREFIX: ${prefix}*\n*╰──────────────●●►*`;
   conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/SXDd8Lp/mrfrankofc.jpg` }, caption: up })
   }
   })
@@ -133,7 +133,7 @@ const {
     if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_READ_STATUS === "true"){
       await conn.readMessages([mek.key])
     }        
-  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
+  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "false"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS__MSG}`
   await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
