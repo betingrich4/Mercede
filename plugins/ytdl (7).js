@@ -44,7 +44,7 @@ cmd({
       ptt: false
     }, { quoted: mek });
 
-    reply(`> *${title}* has been downloaded successfully!`);
+    reply(`> *${title} has been downloaded successfully!*`);
   } catch (error) {
     console.error(error);
     reply("❌ An error occurred while processing your request.");
