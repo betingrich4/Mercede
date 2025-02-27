@@ -83,7 +83,7 @@ cmd({
   try {
     if (!q) return reply("Please ask a question or provide input for the AI.");
 
-    const data = await fetchJson(`https://api.davidcyriltech.my.id/ai/gpt4omini?text=${q}`);
+    const data = await fetchJson(`https://api.giftedtech.my.id/api/ai/gpt?apikey=gifted&q=${q}`);
     console.log(data);
 
     if (!data.message) return reply("No response from the AI.");
