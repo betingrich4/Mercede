@@ -12,7 +12,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let data = await fetchJson(`https://api.davidcyriltech.my.id/ai/gpt3?text=${q}`)
+let data = await fetchJson(`https://api.giftedtech.my.id/api/ai/gpt4-o?apikey=${q}`)
 console.log(data);
 return reply(`${data.message}`)
 }catch(e){
