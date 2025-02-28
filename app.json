@@ -23,6 +23,12 @@
       "description": "paste your alive message hear.",
       "required": true,
       "value": "> *No Doubt Mercedes is Always Active*"
+    }, 
+
+    "AUTO_STATUS_REACT": {
+      "description": "make it true for automatic status reaction or like.",
+      "required": true,
+      "value": "true"
     },
     
     "PREFIX": {
@@ -41,6 +47,12 @@
       "description": "Make it true if you want bot auto voice.",
       "required": true,
       "value": "true"
+    }, 
+    
+    "ANTI_DEL_PATH": {
+      "description": "change it to -same- if you want to resend deleted message in same chat",
+      "required": false,
+      "value": "log"
     }, 
 
     "AUTO_REPLY": {
