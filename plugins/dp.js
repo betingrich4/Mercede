@@ -35,7 +35,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 * *kenya = 100ksh*
 * *Tanzania = 3000Tsh*
 * *Uganda = 400Ush*
-*I will ensure everything is set..*
+*I will ensure everything is set.*
 > *Thanks for the visit*`;
 
         await conn.sendMessage(
