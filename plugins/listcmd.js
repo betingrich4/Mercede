@@ -3,7 +3,7 @@ const { cmd, commands } = require('../command');
 
 cmd({
     pattern: "list",
-    alias: ["listcmd","menu3","commands"],
+    alias: ["listcmd","menu3","command"],
     desc: "menu the bot",
     category: "menu",
     react: "⚡",
