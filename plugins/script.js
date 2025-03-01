@@ -4,7 +4,7 @@ cmd({
     pattern: "script",
     alias: ["sc","repo","info"],
     desc: "bot repo",
-    react: "🤖",
+    react: "🤓",
     category: "main",
     filename: __filename
 },
